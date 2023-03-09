@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  font-style: italic;
+  letter-spacing: 2px;
+  color:rgba(0, 106, 152, 0.8);
+  margin-bottom: 30px;
+}
+.word {
+  width: 25vw;
+  padding: 30px;
+  border: 3px solid rgb(0, 128, 0);
+  margin-bottom: 30px;
+}
+.letter {
+  padding: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1rem;
+  border: 2px solid rgb(154, 137, 8);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color:rgba(0, 17, 128, 0.8);
+}
+.letter:hover {
+  background-color: rgba(252, 252, 110, 0.7);
+  border-color:rgb(98, 0, 255);
+}
+.hint-btn {
+  padding: 15px 20px;
+  border: 1px solid rgba(201, 201, 201, 0.7);
+  border-radius: 10px;
+  background-color: rgba(9, 174, 45, 0.8);
+  color:rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.hint-btn:hover {
+  background-color: rgba(0, 106, 152, 0.8);
+  color: rgb(255, 255, 255);
+}
+.hint-btn:active {
+  background-color: rgba(95, 154, 7, 0.8);
+}
+.hint {
+  opacity: 0;
+}
