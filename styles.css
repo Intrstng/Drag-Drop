@@ -14,7 +14,8 @@ h1 {
 .word {
   width: 25vw;
   padding: 30px;
-  border: 3px solid rgb(0, 128, 0);
+  border: 3px solid rgb(114, 116, 114);
+  background-color: rgba(218, 243, 238, 0.6);
   margin-bottom: 30px;
 }
 .letter {
@@ -54,4 +55,9 @@ h1 {
 }
 .hint {
   opacity: 0;
+}
+.selected {
+  border-style: dashed;
+  background-color: rgba(190, 190, 190, 0.7);
+  color: rgba(255, 255, 255, 0.8);
 }
